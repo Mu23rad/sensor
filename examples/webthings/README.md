@@ -2,10 +2,10 @@
 
 Background:
 
-- [Web Thing API](https://iot.mozilla.org/wot/)
-- [WoT Capability Schemas](https://iot.mozilla.org/schemas/)
-- [WebThings Framework](https://iot.mozilla.org/framework/)
-- [Python Library](https://github.com/mozilla-iot/webthing-python)
+- [WebThings Framework](https://webthings.io/framework/)
+
+- [Python Library](https://github.com/WebThingsIO/webthing-python)
+
 
 Install:
 
@@ -13,7 +13,8 @@ Install:
 sudo pip3 install webthing
 ```
 
-Systemd service file in `/lib/systemd/system/`:
+[Systemd](https://www.raspberrypi.org/documentation/linux/usage/systemd.md)
+service file in `/etc/systemd/system/`:
 
 ```
 [Unit]
